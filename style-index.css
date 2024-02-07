@@ -1,0 +1,78 @@
+#app {
+    text-align: center;
+    display: flex;
+    border: 2px solid rgb(0, 204, 255);
+    gap: 16px;
+
+    width: 393px;
+    height: 2343px;
+    top: 100px;
+    left: 610px;
+   
+
+  }
+  
+  .logo-head-offer{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 393px;
+    height: 24px;
+    Padding: 8px, 0px, 8px, 0px;
+    gap: 10px;
+  }
+  
+  .headline {
+    background-color: black;
+    gap: 16px;
+    width: 393px;
+    height: 104px;
+  }
+  
+  .techn{
+    
+    margin-top: 60px;
+    width: 258px;
+    height: 28px;
+  }
+ 
+  .techn-menu{
+    display: flex;
+    margin-left: 10px;
+
+  }
+  .menu-h{
+    margin-left: 35px;
+    margin-top: 50px;
+    width: 10px;
+
+  }
+
+  .power{
+    width: 393px;
+    height: 568px;
+    background-color: black;
+  }
+  .frame48095833 {
+    display: flex;
+    width: 158px;
+    height: 36px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .union-1{
+    border-radius: 4px;
+    background-color: white;
+    Width: 91px;
+    Height: 36px; 
+    Padding:4px, 8px, 4px, 8px;
+    Gap: 8.7px;
+  }
+  
+  .union-2{
+    margin: auto;
+    Width: 75px;
+    Height: 28px;
+  }
+  
