@@ -1,0 +1,89 @@
+
+
+.header{
+    display: flex;
+    border: 2px solid rgb(4, 24, 29);
+    width: 390px;
+    height: 900px;
+    background-color: black;
+}
+
+.b1{
+  
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.b2{
+    
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.b3{
+   
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    
+}
+
+.b4{
+  
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.b5{
+ 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.b6{
+    position: absolute;
+    width: 158px;
+    height: 36px;
+    display: flex;
+    left: 100px;
+    top: 850px;
+    background-color: white;
+    border-radius: 4px;
+   
+
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: -25px;
+}
+
+.b6 h6 {
+    position: absolute;
+    left: 10px;
+    bottom: -15px;
+    font-size: 8px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;  
+    position: absolute;
+    left: 80px;
+    bottom: 1px;
+}

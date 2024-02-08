@@ -4,21 +4,19 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Приколись</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+  <div class="header">
+        <div class="b1">Block 1</div>
+        <div class="b2">Block 2</div>
+        <div class="b3">Block 3</div>
+        <div class="b4">Block 4</div>
+        <div class="b5">Block 5</div>
+        <div class="b6">
+            <h5 class="logo"><img src="pictures/logo-index/trastpilot/frame48095833/tp_icons-1/Group.svg"/></h5>
+            <h6>Over 10,000 reviews</h6> 
+            <img class ="star" src="pictures/logo-index/trastpilot/frame48095833/frame4809531/Group147/vectorstar.svg"/>
+            
+        </div>
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+
