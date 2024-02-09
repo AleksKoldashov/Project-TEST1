@@ -1,10 +1,11 @@
 #app {
-    text-align: center;
+ 
     display: flex;
     border: 2px solid rgb(0, 204, 255);
     gap: 16px;
-    width: 393px;
-    height: 2343px;
+    width: 395px;
+    height: 2443px;
+    font-family: 'Poppins-Medium';
    
 
   }
@@ -14,7 +15,7 @@
     position: absolute;
     left: 10px;
     top: 10px;
-    width: 393px;
+    width: 392px;
     height: 24px;
     Padding: 8px, 0px, 8px, 0px;
     gap: 10px;
@@ -114,18 +115,19 @@
     position: absolute;
     top: 440px;
     left: 10px;
+    width: 391px;
   }
 
   .text-trastpilot{
     position: absolute;
-    left: 100px;
+    left: 110px;
     top: 25px;
   }
 
   .logo {
     position: absolute;
     left: 10px;
-    top: -25px;
+    top: -20px;
 }
 
 .frame48095833 h6 {
@@ -139,7 +141,7 @@
     width: 15px;
     height: 15px;  
     position: absolute;
-    left: 80px;
+    left: 90px;
     bottom: 1px;
 }
 
@@ -263,7 +265,7 @@
     position:absolute;
     left: 218px;
     top: 212px;
-   
+  
 
   }
   @font-face {
@@ -279,3 +281,178 @@
     font-style: normal; 
     font-weight: normal; 
   } 
+  @font-face {
+    font-family: "Poppins-SemiBold"; 
+    src: url("../Project-TEST1/fonts/Poppins-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+  @font-face {
+    font-family: "Poppins-Semi"; 
+    src: url("../Project-TEST1/fonts/Poppins-Semi.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+
+  /* Блок 3 */
+
+  .frame2043682670{
+    position: absolute;
+    left: 30px;
+    top:685px;
+    width: 330px;
+    height: 1672px;
+  }
+
+
+  .text24{
+    position: absolute;
+    width: 350px;
+    left: 15px;
+    top:385px;
+    font-family: 'Poppins-SemiBold';
+    font-size: 32px;
+  }
+
+  .frame149286307{
+    position: absolute;
+    top:535px;
+    left: 15px;
+    width: 330px;
+  }
+
+.img3448{
+  position: absolute;
+  top:33px;
+  left: 1px;
+
+}
+
+.img3447{
+  width: 330px;
+}
+.text-fill{
+  position: absolute; 
+  top:585px;
+  width: auto;
+  font-family: 'Poppins-Medium';
+  left: 15px;
+}
+
+.sale-ending-timer{
+  position: absolute; 
+  top:765px;
+  background-color: rgba(245, 245, 246, 1);
+  width: 350px;
+  height: 40px;
+  border-radius: 1000px;
+  padding: 5px, 24px, 5px, 24px;
+  Gap: 6px;
+}
+
+.frame2043682668{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.timer-text{
+  font-family: 'Poppins-Medium';
+  font-size: 16px;
+}
+.timer-number{
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+  color: rgba(177, 95, 255, 1);
+  ;
+}
+
+.frame2043682647{
+  width: 350px;
+  height: 64px;
+  position: absolute; 
+  top:815px;
+  left: 15px;
+  font-family: 'Poppins-SemiBold';
+}
+
+.frame2043682623{
+  display: flex;
+  flex-direction: row;
+}
+
+.text24-1{
+  font-family: 'Poppins-SemiBold';
+  font-size: 32px;
+}
+
+.text25{
+  font-family: 'Poppins-Medium';
+  font-size: 16px;
+}
+
+.text26{
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+  color:rgba(255, 64, 83, 1);
+}
+
+.mini-text{
+  display: flex;
+  position: absolute; 
+  top:795px;
+  left: 15px;
+  text-align: center;
+  font-size: 8px;
+  color:rgba(245, 245, 245, 1);
+}
+
+.frame2043682650{
+  position: absolute; 
+  top:895px;
+  left: 15px;
+}
+
+.frame48095907{
+  text-align: center;
+}
+
+.button-650{
+  Width:345px;
+  Height: 52px;
+  border-radius:8px;
+  Padding:11px, 21px, 11px, 21px;
+  Gap:10px;
+  background-color: rgba(176, 253, 228, 1);
+  font-size: 16px;
+}
+
+.price-frame652{
+  position: absolute;
+  top:995px;
+  left: 15px;
+  font-size: 14px;
+  color: rgba(113, 114, 113, 1);
+  line-height: 1ch;
+  
+}
+.dropdown{
+  position: absolute;
+  font-size: 18px;
+  top:1055px;
+  left: 15px;
+}
+
+.footer{
+  background-color: rgba(28, 28, 28, 1);
+  position: absolute;
+  top:1400px;
+  left: -21px;
+  Width:392px;
+  Height: 364px;
+  font-size: 8px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

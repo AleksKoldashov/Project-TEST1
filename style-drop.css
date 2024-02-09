@@ -1,0 +1,23 @@
+.arrow-drop {
+    position: absolute;
+    top: 27px;
+    left: 310px;
+    
+  }
+  
+  .active {
+    transform: rotate(180deg);
+  }
+  
+  .panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+
+
+
+  
+  

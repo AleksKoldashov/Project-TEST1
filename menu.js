@@ -1,13 +1,13 @@
 import './style-menu.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
 
-document.querySelector('#app').innerHTML = `
+
+document.querySelector('#app1').innerHTML = `
   <div class="menu-page">
     <div class="headline">
-    <img class="techn" src="pictures/logo-menu/logo-headline/logo-headline.svg"/>
+    
     <img class="menuof" src="pictures/logo-menu/logo-headline/logo-menuof.svg"/>
+    <img class="techn" src="pictures/logo-menu/logo-headline/logo-headline.svg"/>
+   
     
     </div>
     
