@@ -25,6 +25,8 @@
 	height: inherit;
 	position: absolute;
 	width: inherit;
+	background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .slide1 { background-image: url(pictures\slider\img1.png); }
