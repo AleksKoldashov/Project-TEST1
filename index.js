@@ -2,6 +2,8 @@ import './style-index.css'
 import './style-slider.css'
 import './style-modal.css'
 import './style-drop.css'
+import './style-menu.css'
+
 
 document.querySelector('#app').innerHTML = `
   <div class="index-page">
@@ -9,10 +11,10 @@ document.querySelector('#app').innerHTML = `
     <img class="logo-head-offer" src="pictures/logo-menu/logo-headline/logo-head-offer.svg"/>
     <div class ="techn-menu">
         <img class="techn" src="pictures/logo-index/logo-headline/logo-techno.svg"/>
-        <div class="menu-h" id="menu">
-            <img class="menu-h1" id="menu" src="pictures/logo-index/logo-headline/logo-header.svg"/>
+        <div class="menu-h" >
+            <img class="menu-h1" id="btnMenu" src="pictures/logo-index/logo-headline/logo-header.svg"/>
         </div>
-        
+     
     </div>
    
    
@@ -120,8 +122,9 @@ document.querySelector('#app').innerHTML = `
                                 <div class="frame2043682623">
                                     <div class="frame149286310">
                                     <a class="text25">$1099</a>
+                                    <img class="vector6" src="pictures/logo-index/trastpilot/vector6.svg"/>
                                     </div>
-                                    <a class="text26">-75%</a>
+                                    <a class="text26">&nbsp-75%</a>
                                 </div>
                                 </div>
                             </div>
@@ -226,7 +229,25 @@ document.querySelector('#app').innerHTML = `
         </p>
       
         </div>
-    </div>         
+    </div>    
+<!-- Модальный -->
+<div id="modalMenu" class="modalMenu">
+  <!-- Модальное содержание -->
+  <div class="modal-content-menu">
+    <span class="close-menu"><img src="pictures/logo-menu/logo-headline/logo-menuof.svg"/></span>
+    <div class="menu-page">
+    <div class="line">
+   <img class="technpark" src="pictures/logo-menu/logo-headline/logo-headline.svg"/>
+    </div>
+    <div class="menu1">
+    <div> <h5>Go to product page</h5><img src="pictures/logo-menu/logoVector.svg"/></div>
+    <div> <h5>Track your order</h5><img src="pictures/logo-menu/logoVector.svg"/></div>
+    <div> <h5>Contact us</h5><img src="pictures/logo-menu/logoVector.svg"/></div>
+    <div> <h5>FAQ</h5><img src="pictures/logo-menu/logoVector.svg"/></div> 
+    </div>
+  </div>
+  </div>
+</div>
        
   </div>
 
@@ -235,26 +256,25 @@ document.querySelector('#app').innerHTML = `
 
 
 // Модальное окно
-// Получить модальный
+
 const modal = document.getElementById("myModal");
 
-// Получить кнопку, которая открывает модальный
+
 const btn = document.getElementById("myBtn");
 
-// Получить элемент <span>, который закрывает модальный
+
 const span = document.getElementsByClassName("close")[0];
 
-// Когда пользователь нажимает на кнопку, откройте модальный
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// Когда пользователь нажимает на <span> (x), закройте модальное окно
+
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// Когда пользователь щелкает в любом месте за пределами модального, закройте его
+
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -263,29 +283,27 @@ window.onclick = function(event) {
 
 // Таймер обратного отсчета
 
-// Установите дату, до которой мы ведем обратный отсчет
+
 var countDownDate = new Date("July 1, 2024 04:00:00").getTime();
 
-// Обновляйте обратный отсчет каждые 1 секунду
+
 var x = setInterval(function() {
 
-  // Получить сегодняшнюю дату и время
   var now = new Date().getTime();
 
-  // Найти расстояние между сейчас и датой обратного отсчета
   var distance = countDownDate - now;
 
-  // Расчет времени по дням, часам, минутам и секундам
+
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Отображение результата в элементе с помощью id="demo"
+
   document.getElementById("timer").innerHTML = hours + ": "
   + minutes + ": " + seconds;
 
-  // Если обратный отсчет завершен, напишите текст
+
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "17:34:53";
@@ -309,4 +327,28 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// Модалка меню
+const modalMenu = document.getElementById("modalMenu");
 
+
+const btnMenu = document.getElementById("btnMenu");
+
+
+const closeMenu = document.getElementsByClassName("close-menu")[0];
+
+
+btnMenu.onclick = function() {
+  modalMenu.style.display = "block";
+}
+
+
+closeMenu.onclick = function() {
+  modalMenu.style.display = "none";
+}
+
+о
+window.onclick = function(event) {
+  if (event.target == modalMenu) {
+    modalMenu.style.display = "none";
+  }
+}

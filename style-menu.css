@@ -1,13 +1,24 @@
-#app1 {
+.modalMenu {
+  position: absolute;
   width: 393px;
   height: 927px;
   border: 2px solid rgb(0, 204, 255);
   gap: 16px;
+  display: none; /* Скрыто по умолчанию */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Сидеть на вершине */
+  left: 500px;
+  top: 50px;
+  overflow: auto; /* Включите прокрутку, если это необходимо */
 }
 
+.btnMenu{
+  position: absolute;
+  top:1px;
+  left: 505px;
+}
 
-
-.headline {
+.line {
   background-color: white;
   gap: 16px;
   width: 390px;
@@ -16,28 +27,40 @@
   flex-direction: row;
 }
 
-.techn{
-  width: 258px;
-  height: 28px;
+.technpark{
+  position: absolute;
+  top:15px;
+  left: 25px;
+ 
 }
 
-.menuof{
+.close-menu {
+  position: absolute;
+  top:10px;
+  left: 335px;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 1;
   width: 40px;
   height: 40px;
 }
-.menu{
+
+.menu1 {
 
   padding: 0px, 24px, 0px, 24px;
   gap: 24px;
   border-bottom: 1px solid rgba(193, 193, 193, 1);
 }
 
-.menu div{
+.menu1 div{
   display: flex;
   justify-content: space-between;
   padding: 12px;
-  width: 390px;
+  width: 370px;
  
 }
+
+
+
 
 
